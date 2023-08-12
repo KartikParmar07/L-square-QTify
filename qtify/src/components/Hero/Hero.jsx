@@ -16,4 +16,4 @@ const hero = ({line1,line2}) => {
   )
 }
 
-export default hero
+export default hero;

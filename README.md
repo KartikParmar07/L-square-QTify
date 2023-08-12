@@ -1,1 +1,1 @@
-# L-square-QTify
+# L-square-QTify - hero-qtify-takehome
