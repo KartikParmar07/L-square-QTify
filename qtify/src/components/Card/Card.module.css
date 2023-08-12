@@ -1,0 +1,45 @@
+.card{
+    height: auto;
+    width:fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.card p{
+    padding: 6px 0;
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+.holder{
+    height: 200px;
+    width: 159px;
+    background-color: var(--color-white);
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.holder div{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 6px;
+}
+
+.cardImg{
+    height: 180px;
+    width: 100%;
+    object-fit:cover;
+}
+
+.follows{
+    background-color: var(--color-black);
+    font-size: 10px;
+    font-weight: 400;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
