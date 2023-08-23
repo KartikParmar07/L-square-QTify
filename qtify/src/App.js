@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
-import Card from "./components/Card/Card";
+// import Card from "./components/Card/Card";
 import { fetchTopAlbums } from "./api/api";
 import { useEffect, useState } from "react";
 import Section from "./components/Section/Section";
