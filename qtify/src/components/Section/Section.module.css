@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.cardWrapper{
+    margin-top: 18px;
+}
+
+.wrapper{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.toogleText{
+    cursor: pointer;
+    color: var(--color--primary);
+}
