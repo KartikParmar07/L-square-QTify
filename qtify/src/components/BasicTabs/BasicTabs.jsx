@@ -70,12 +70,6 @@ export default function BasicTabs({
             .map((song) => (
               <></>
             ))}
-
-          {/* Print genre of all songs when "All" tab is selected */}
-          {index === 0 &&
-            songsData.forEach((song) => {
-              console.log("Genre:", song.genre.key);
-            })}
         </CustomTabPanel>
       ))}
     </Box>

@@ -5,6 +5,7 @@ import { fetchTopAlbums, fetchNewAlbums, fetchSongs } from "./api/api";
 import { useEffect, useState } from "react";
 import Section from "./components/Section/Section";
 import style from "./App.module.css"
+import CustomAccordion from "./components/Accordian/CustomAccordion";
 
 function App() {
 
@@ -57,9 +58,13 @@ function App() {
         line2="Over thousands podcast episodes"
       />
       <div className={style.sectionWrapper}>
-      <Section title="Top Albums" data={topAlbumData} type="album"/>
-      <Section title="New Albums" data={newAlbumData} type="album"/>
-      <Section title="Songs" data={allSongs} type="songs"/>
+      <div><Section title="Top Albums" data={topAlbumData} type="album"/></div>
+      <div><Section title="New Albums" data={newAlbumData} type="album"/></div>
+      <div><Section title="Songs" data={allSongs} type="songs"/></div>
+      <div className={style.faqWrapper}>
+        <h1>FAQ</h1>
+        <CustomAccordion />
+      </div>
       </div>
     </>
   );
