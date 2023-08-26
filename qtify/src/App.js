@@ -46,7 +46,7 @@ function App() {
       />
       <div className={style.sectionWrapper}>
       <Section title="Top Albums" data={topAlbumData} type="album"/>
-      <Section title="New Albums" data={topAlbumData} type="album"/>
+      <Section title="New Albums" data={newAlbumData} type="album"/>
       </div>
     </>
   );
