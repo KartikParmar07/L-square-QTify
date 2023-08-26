@@ -24,3 +24,7 @@ body{
     color: var(--color-white);
     overflow-x: hidden;
 }
+
+.swiper-slide{
+    width: auto !important;
+}

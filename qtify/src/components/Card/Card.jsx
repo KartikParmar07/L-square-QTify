@@ -18,7 +18,7 @@ const Card = ({data,type}) => {
               <div className={style.holder}>
                   <img className={style.cardImg} src={data.image} alt={data.title} />
                   <div>
-                  <span className={style.follows}>${data.follows}FOLLOWS</span>
+                  <span className={style.follows}>{data.follows} FOLLOWS</span>
                   </div>
               </div>
               <p>{data.title}</p>
