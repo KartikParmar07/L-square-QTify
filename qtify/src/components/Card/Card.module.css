@@ -1,6 +1,6 @@
 .card{
     height: auto;
-    width:fit-content;
+    width:159px;
     display: flex;
     flex-direction: column;
 }
@@ -9,6 +9,7 @@
     padding: 6px 0;
     font-size: 14px;
     font-weight: 400px;
+    overflow: hidden;
 }
 
 .holder{

@@ -4,8 +4,6 @@ import style from "./Card.module.css";
 
 
 const Card = ({data,type}) => {
-  
-  console.log(data.songs);
 
   const getCard = (type) => {
     switch(type){
@@ -25,6 +23,22 @@ const Card = ({data,type}) => {
             </div>
           </Tooltip>
           </>
+        );
+      }
+      case "songs":{
+
+        return (
+          <>
+            <div className={style.card}>
+              <div className={style.holder}>
+                  <img className={style.cardImg} src={data.image} alt={data.title} />
+                  <div>
+                  <span className={style.follows}>{data.likes} Likes</span>
+                  </div>
+              </div>
+              <p>{data.title}</p>
+            </div>
+            </>
         );
       }
       default:
